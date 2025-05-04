@@ -52,17 +52,6 @@ The app is structured using **MVVM** architecture and written entirely in **Kotl
 
 ---
 
-## Team Members & Contributions
-
-| Name               | Contribution                                                  |
-|--------------------|---------------------------------------------------------------|
-| **Isha Patil**     | Built Home screen UI and “What to Wear Today” logic           |
-| **Rishab Lakhotra**| Handled ViewModel, API integration, StateFlow, and app logic  |
-| **Rutik Narute**   | Designed and implemented the Details screen layout            |
-| **Pablo Casas**    | Implemented search history logic with functional ops          |
-| **Jordan Doose**   | Built the About screen and handled documentation & slides     |
-
----
 
 ## Acknowledgments
 
