@@ -158,6 +158,17 @@ fun WeatherHomeScreen(navController: androidx.navigation.NavHostController, view
                     }
 
                     Button(
+                        onClick = { navController.navigate(Screen.Hourly.route) },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(48.dp),
+                        shape = RoundedCornerShape(24.dp)
+                    ) {
+                        Text("Hourly Forecast")
+                    }
+
+
+                    Button(
                         onClick = { navController.navigate(Screen.History.route) },
                         modifier = Modifier
                             .fillMaxWidth()
@@ -176,6 +187,8 @@ fun WeatherHomeScreen(navController: androidx.navigation.NavHostController, view
                     ) {
                         Text("About")
                     }
+
+
                 }
             }
         }

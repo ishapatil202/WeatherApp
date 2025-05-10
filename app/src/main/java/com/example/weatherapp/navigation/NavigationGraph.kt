@@ -13,6 +13,8 @@ import com.example.weatherapp.uiscreens.DetailsScreen
 import com.example.weatherapp.viewmodel.WeatherViewModel
 import com.example.weatherapp.uiscreens.SearchHistoryScreen
 import com.example.weatherapp.uiscreens.AboutScreen
+import com.example.weatherapp.uiscreens.HourlyForecastScreen
+
 
 
 sealed class Screen(val route: String) {
@@ -20,6 +22,7 @@ sealed class Screen(val route: String) {
     object Details : Screen("details")
     object History : Screen("history")
     object About : Screen("about")
+    object Hourly : Screen("hourly")
 
 }
 
@@ -47,6 +50,10 @@ fun AppNavigation(navController: NavHostController, modifier: Modifier = Modifie
         composable(Screen.About.route) {
             AboutScreen()
         }
+        composable(Screen.Hourly.route) {
+            HourlyForecastScreen(viewModel)
+        }
+
 
 
     }
