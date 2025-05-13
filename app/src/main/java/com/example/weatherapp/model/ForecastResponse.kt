@@ -1,3 +1,4 @@
+// added by Isha Patil
 package com.example.weatherapp.model
 
 data class ForecastResponse(

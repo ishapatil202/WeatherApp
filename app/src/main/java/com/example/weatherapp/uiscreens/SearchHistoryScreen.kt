@@ -1,4 +1,4 @@
-// Screen implemented by Pablo Casas – displays and reuses past searches
+// Screen implemented by Rutik narute – displays and reuses past searches
 package com.example.weatherapp.uiscreens
 
 

@@ -1,4 +1,4 @@
-// Created by Pablo Casas – handles the API response data model
+// Created by Isha patil – handles the API response data model
 
 package com.example.weatherapp.model
 

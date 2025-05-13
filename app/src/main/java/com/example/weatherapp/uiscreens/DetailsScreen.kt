@@ -1,3 +1,4 @@
+//Detail screen added by rutik narute
 package com.example.weatherapp.uiscreens
 
 import androidx.compose.foundation.layout.*
